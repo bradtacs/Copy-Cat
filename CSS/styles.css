@@ -2,9 +2,37 @@
   float: left;
   line-height: 16PX;
   font-size: 18px;
+  color: white;
 }
 
+.nav-items {
+  display: inline-block;
+  margin-right: 10px;
+  line-height: 60px;
+}
+
+.nav-items {
+  margin-bottom: 5;x
+}
+body{
+  margin: 0px;
+}
 header {
   background-color: #06D6A0;
-  
+  width: 100%;
+  height: 60px;
+  padding: 20px;
+
+}
+.navbar {
+  float: right;
+
+}
+h1 {
+  color: white;
+}
+
+html {
+    font-family: "Helvetica Neue", Helvetica, Arial;
+
 }

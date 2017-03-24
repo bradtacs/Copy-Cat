@@ -1,8 +1,13 @@
+
+*{box-sizing: border-box;} /* box sizing fixes all the odd spaing and makes it = whatever you want it to be.*/
+
 .logo {
   float: left;
-  line-height: 16PX;
+  line-height: 18PX;
   font-size: 18px;
   color: white;
+  padding-left:  20px;
+
 }
 
 .nav-items {
@@ -15,14 +20,15 @@
 .nav-items {
   margin-bottom: 5PX;
 }
+
 body{
   margin: 0px;
 }
+
 header {
   background-color: #06D6A0;
   width: 100%;
-  height: 60px;
-  padding: 20px;
+  height: 50px;
 }
 .container {
   max-width: 900px;
@@ -32,11 +38,19 @@ header {
 .content {
   float: right;
   width: 30%;
-  background-color: blue;
-  height: 362px;
+
+
   color: white;
 }
 
+.row-one {
+  width: 100%;
+  background-color: blue;
+
+
+  overflow: hidden;
+
+}
 H2 {
   font-size: 40px;
   text-align: center;
@@ -51,10 +65,27 @@ H2 {
   width: 100%;
   background-color: #FFD166;
   padding: 40px;
-  padding-top: 80px;
-  
+  padding-top: 10px;
+
   overflow: hidden;
 
+}
+
+.float-three {
+  width: 30%;
+  float: left;
+  margin: 11px;
+  border: 2px solid black
+}
+
+
+.row-four {
+  width: 100%;
+  background-color: #F2F2F2;
+  padding: 40px;
+  padding-top: 10px;
+
+  overflow: hidden;
 
 }
 img {
@@ -64,8 +95,52 @@ img {
   float: right;
   padding-right: 80PX;
 }
+
+.row-five {
+  background-color: #26547C;
+  width: 100%;
+  padding: 40px;
+  padding-top: 10px;
+}
+
 h1 {
   color: white;
+}
+
+h4 {
+  float: left;
+  color: red;
+  text-transform: uppercase;
+  margin-left: 30px;
+  padding: 30px;
+  font-size: 40px;
+  width: 28%;
+}
+
+clear-float {
+    overflow: hidden;
+}
+
+.white-font {
+  color: white;
+
+}
+
+.float-right {
+  float: right;
+}
+
+footer{
+  background-color: #06D6A0;
+  width: 100%;
+  height: 20px;
+  padding: 20px;
+  padding-bottom: 30px;
+}
+
+p {
+  line-height: -2px;
+  font-size: 18px;
 }
 
 html {
